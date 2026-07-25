@@ -1,7 +1,7 @@
 import React from 'react';
 import { Download, ArrowDown } from 'lucide-react';
-import profile from '.../image.jpeg'; // Mettez votre photo dans assets
-import cvPDF from '.../cv.pdf';
+import profile from '/image.jpeg'; // Mettez votre photo dans assets
+import cvPDF from '/cv.pdf';
 
 const STATS = [
   { value: '1+', label: 'ans de recherche appliquée' },
