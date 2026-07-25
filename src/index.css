@@ -12,12 +12,15 @@
 
 html {
     scroll-behavior: smooth;
+    color-scheme: light only;
+    background-color: var(--paper);
 }
 
 body {
     background-color: var(--paper);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-padding-top: 76px;
+    color-scheme: light only;
     /* offset pour la navbar sticky */
 }
 
@@ -393,14 +396,4 @@ footer a:hover {
         font-size: 0.8rem;
         text-align: center;
     }
-}
-
-html {
-    color-scheme: light only;
-    background-color: var(--paper);
-}
-
-body {
-    background-color: var(--paper);
-    color-scheme: light only;
 }
