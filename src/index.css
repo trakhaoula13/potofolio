@@ -296,3 +296,101 @@ footer a:hover {
 .timeline-content:hover {
     transform: translateX(6px);
 }
+
+.text-white-50 {
+    transition: color 0.2s ease;
+}
+
+.text-white-50:hover {
+    color: #ffffff !important;
+    transform: scale(1.05);
+}
+
+
+/* Footer.css */
+
+.footer {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+/* Social Icons */
+
+.footer-social {
+    display: flex;
+    gap: 1.8rem;
+    align-items: center;
+}
+
+.social-link {
+    color: #ffffff;
+    font-size: 1.8rem;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 0.4rem;
+    background-color: transparent;
+}
+
+.social-link:hover {
+    color: #e94560;
+    transform: translateY(-4px) scale(1.1);
+    background-color: rgba(233, 69, 96, 0.1);
+}
+
+
+/* Specific icon colors on hover */
+
+.social-link:hover .fa-linkedin {
+    color: #0a66c2;
+}
+
+.social-link:hover .fa-github {
+    color: #f0f6fc;
+}
+
+.social-link:hover .fa-whatsapp {
+    color: #25d366;
+}
+
+
+/* Copyright */
+
+.footer-copyright p {
+    font-size: 0.95rem;
+    color: #b0b0b0;
+    margin: 0;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+}
+
+
+/* Responsive */
+
+@media (max-width: 480px) {
+    .footer-social {
+        gap: 1.2rem;
+    }
+    .social-link {
+        font-size: 1.5rem;
+    }
+    .footer-copyright p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
