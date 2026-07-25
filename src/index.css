@@ -394,3 +394,13 @@ footer a:hover {
         text-align: center;
     }
 }
+
+html {
+    color-scheme: light only;
+    background-color: var(--paper);
+}
+
+body {
+    background-color: var(--paper);
+    color-scheme: light only;
+}
