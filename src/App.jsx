@@ -7,6 +7,7 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
+
 // Import Bootstrap et votre CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -15,6 +16,7 @@ import './index.css';
 function App() {
   return (
     <>
+      <link rel="icon" href="/logo.ico" />
       <Navbar />
       <main>
         <section id="home"><Home /></section>
