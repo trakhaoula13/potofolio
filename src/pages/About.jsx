@@ -61,7 +61,7 @@ const About = () => {
           </div>
           <div className="timeline">
             <div className="timeline-item">
-              <div className="timeline-badge bg-info"></div>
+              <div className="timeline-badge bg-secondary"></div>
               <div className="timeline-content">
                 <h6 className="fw-bold mb-1">Stage PFE – TIS Circuits</h6>
                 <p className="text-muted small mb-1">Carte IoT &amp; Plateforme de métrologie Python</p>

@@ -16,7 +16,7 @@ const Home = () => {
     <div className="hero-section">
       <div className="container">
         <div className="row align-items-center hero-row">
-          <div className="col-lg-7 text-center text-lg-start">
+          <div className="col-lg-7 order-2 order-lg-1 text-center text-lg-start">
             {/*<span className="eyebrow">// portfolio — automatique &amp; robotique</span>*/}
             <h1 className="hero-title">Khaoula Trabelsi</h1>
             <h2 className="hero-subtitle">Chercheuse en Automatique, Robotique &amp; Traitement de l'information </h2>
@@ -40,7 +40,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div className="col-lg-5 text-center mt-5 mt-lg-0">
+          <div className="col-lg-5 order-1 order-lg-2 text-center">
             <div className="profile-frame mx-auto">
               <img src={profile} alt="Khaoula Trabelsi" className="profile-img" />
             </div>
